@@ -1,13 +1,13 @@
 About r-factormerger
 ====================
 
-Home: https://CRAN.R-project.org/package=factorMerger
+Home: https://github.com/MI2DataLab/factorMerger
 
 Package license: GPL
 
 Feedstock license: BSD 3-Clause
 
-Summary: A set of tools to support results of post-hoc testing and enable to extract hierarchical structure of factors. Work on this package was financially supported by the 'NCN Opus grant 2016/21/B/ST6/02176'.
+Summary: The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based model selection. This package contains tools for  exploration and visualization of k-group dissimilarities.  Comparison of k-groups is one of the most important issues in exploratory analyses and it has zillions of applications.  The traditional approach is to use pairwise post hoc tests in order to verify which groups differ significantly. However, this approach fails with a large number of groups in both interpretation  and visualization layer. The Merging Path Plot solves this problem by using an easy-to-understand  description of dissimilarity among groups based on Likelihood Ratio Test (LRT) statistic. Work on this package was financially supported by the 'NCN Opus grant 2016/21/B/ST6/02176'.
 
 
 
