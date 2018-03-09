@@ -1,4 +1,4 @@
-{% set version = "0.3.5" %}
+{% set version = '0.3.5' %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -28,6 +28,8 @@ requirements:
     - r-agricolae
     - r-colorramps
     - r-dplyr
+    - r-forcats
+    - r-formula.tools
     - r-ggplot2
     - r-ggpubr
     - r-knitr
@@ -37,12 +39,15 @@ requirements:
     - r-reshape2
     - r-scales
     - r-survival
+
   run:
     - r-base
     - r-mass
     - r-agricolae
     - r-colorramps
     - r-dplyr
+    - r-forcats
+    - r-formula.tools
     - r-ggplot2
     - r-ggpubr
     - r-knitr
@@ -59,11 +64,18 @@ test:
     - "\"%R%\" -e \"library('factorMerger')\""  # [win]
 
 about:
-  home: https://CRAN.R-project.org/package=factorMerger
+  home: https://github.com/MI2DataLab/factorMerger
   license: GPL
-  summary: A set of tools to support results of post-hoc testing and enable to extract hierarchical
-    structure of factors. Work on this package was financially supported by the 'NCN
-    Opus grant 2016/21/B/ST6/02176'.
+  summary: The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based
+    model selection. This package contains tools for  exploration and visualization
+    of k-group dissimilarities.  Comparison of k-groups is one of the most important
+    issues in exploratory analyses and it has zillions of applications.  The traditional
+    approach is to use pairwise post hoc tests in order to verify which groups differ
+    significantly. However, this approach fails with a large number of groups in both
+    interpretation  and visualization layer. The Merging Path Plot solves this problem
+    by using an easy-to-understand  description of dissimilarity among groups based
+    on Likelihood Ratio Test (LRT) statistic. Work on this package was financially supported
+    by the 'NCN Opus grant 2016/21/B/ST6/02176'.
   license_family: GPL
 
 extra:
