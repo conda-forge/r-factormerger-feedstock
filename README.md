@@ -7,7 +7,7 @@ Package license: GPL
 
 Feedstock license: BSD 3-Clause
 
-Summary: The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based model selection. This package contains tools for  exploration and visualization of k-group dissimilarities.  Comparison of k-groups is one of the most important issues in exploratory analyses and it has zillions of applications.  The traditional approach is to use pairwise post hoc tests in order to verify which groups differ significantly. However, this approach fails with a large number of groups in both interpretation  and visualization layer. The Merging Path Plot solves this problem by using an easy-to-understand  description of dissimilarity among groups based on Likelihood Ratio Test (LRT) statistic. Work on this package was financially supported by the 'NCN Opus grant 2016/21/B/ST6/02176'.
+Summary:  The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based model selection. This package contains tools for  exploration and visualization of k-group dissimilarities.  Comparison of k-groups is one of the most important issues in exploratory analyses and it has zillions of applications.  The traditional approach is to use pairwise post hoc tests in order to verify which groups differ significantly. However,  this approach fails with a large number of groups in both interpretation  and visualization layer. The Merging Path Plot solves this problem by using an easy-to-understand  description of dissimilarity among groups based on Likelihood Ratio Test (LRT) statistic (Sitko, Biecek 2017) <arXiv:1709.04412>. 'factorMerger' is a part of the 'DrWhy.AI' universe (Biecek 2018) <arXiv:1806.08915>. Work on this package was financially supported by the 'NCN Opus grant 2016/21/B/ST6/02176'.
 
 
 
@@ -116,9 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 
