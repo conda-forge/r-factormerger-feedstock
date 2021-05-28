@@ -65,7 +65,7 @@ test:
 
 about:
   home: https://github.com/MI2DataLab/factorMerger
-  license: GPL
+  license: GPL-2.0-or-later
   summary: ' The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based
     model selection. This package contains tools for  exploration and visualization
     of k-group dissimilarities.  Comparison of k-groups is one of the most important
