@@ -3,13 +3,11 @@ About r-factormerger
 
 Home: https://github.com/MI2DataLab/factorMerger
 
-Package license: GPL
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-factormerger-feedstock/blob/master/LICENSE.txt)
 
 Summary:  The Merging Path Plot is a methodology for adaptive fusing of k-groups  with likelihood-based model selection. This package contains tools for  exploration and visualization of k-group dissimilarities.  Comparison of k-groups is one of the most important issues in exploratory analyses and it has zillions of applications.  The traditional approach is to use pairwise post hoc tests in order to verify which groups differ significantly. However,  this approach fails with a large number of groups in both interpretation  and visualization layer. The Merging Path Plot solves this problem by using an easy-to-understand  description of dissimilarity among groups based on Likelihood Ratio Test (LRT) statistic (Sitko, Biecek 2017) <arXiv:1709.04412>. 'factorMerger' is a part of the 'DrWhy.AI' universe (Biecek 2018) <arXiv:1806.08915>. Work on this package was financially supported by the 'NCN Opus grant 2016/21/B/ST6/02176'.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-factormerger` from the `conda-forge` channel can be achieved by ad
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-factormerger` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
